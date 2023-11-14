@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title><br>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+        
+    <div class="box">
+        <div class="top-header">
+            <header>Registration Page</header>
+        </div>
+        
+        <form id="registerForm">
+            <label for="name"></label>
+            <input type="text" class="input" placeholder="Name" id="name" required><br><br>
+
+            <label for="username"></label>
+            <input type="text" class="input" placeholder="Username" id="regUsername" required><br><br>
+        
+            <label for="password"></label>
+            <input type="password" class="input" placeholder="Password" id="regPassword" required><br><br>
+
+            <label for="securityQuestion"></label>
+            <select class="security" name="security1">
+                <option value="0">Select a question from the following options.</option>
+                <option value="1">What is the name of your first school?</option>
+                <option value="2">What is the name of your favourite city?</option>
+                <option value="3">What is your favorite color?</option>
+             </select><br><br>
+             <input type="securityQuestion" class="input" placeholder="Answer" id="securityQuestion" required><br><br>
+
+            <div class="btn">
+                <button type="button" class="btn2" onclick="register()">Register</button><br><br>
+            </div>
+        
+        </form>
+        <div class="bottom">
+            <a href="login.html">Already have an account? Log In</a><br><br>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

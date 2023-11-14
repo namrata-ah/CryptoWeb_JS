@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+body{
+    background-image: url("https://www.corporatecomplianceinsights.com/wp-content/uploads/2018/07/cryptocurrency.jpg");
+    background-size: cover;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.box{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px ;
+}
+header{
+    color: rgba(255, 255, 255,255);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input{
+    height: 45px;
+    width: 87%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 0 0 0 45px;
+    background: rgba(255,255,255,0.5);
+}
+.security{
+    height: 20px;
+    width: 100%;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 0 0 0 20px;
+    font-family:'Trebuchet MS';
+}
+
+::-webkit-input-placeholder{
+    color: white;
+}
+.btn2{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 30px;
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    background: rgba(255,255,255,0.6);
+    height: 20px;
+    border-radius: 20px;
+    color: aliceblue;
+}

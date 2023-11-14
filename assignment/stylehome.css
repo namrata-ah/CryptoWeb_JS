@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url("https://www.ihash.eu/wp-content/uploads/2023/06/The-most-spectacular-crypto-thefts-and-how-to-defend-against.jpg");
+    background-size: cover;
+}
+.sidebar{
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    background: rgba(10,6,6);
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+.sidebar header{
+    font-family:'Segoe UI';
+    font-size: 25px;
+    color: rgb(140, 222, 231);
+    text-align: center;
+    line-height: 60px;
+    background: rgb(10, 6, 6);
+    border-bottom: 1px solid rgb(140, 222, 231);
+}
+.sidebar a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 80px;
+    color: rgb(140, 222, 231);
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid white;
+    font-family:'Segoe UI';
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.head{
+    text-align: center;
+    color: rgb(99, 1, 44);
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.text{
+    padding-left: 40px;
+    padding-right: 50px;
+    font-family:'Lucida Sans';
+    background: rgba(255,255,255,0.2);
+}
